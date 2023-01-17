@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.main_wrapper{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.canvas_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.canvas{
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+.title{
+  font-size: 3vw;
+}
